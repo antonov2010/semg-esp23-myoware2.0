@@ -122,7 +122,7 @@ const time_t CUSTOM_EPOCH = 1750550400; // Unix timestamp for 2025-06-22T00:00:0
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // WiFi Configuration (replace with your network credentials)
-const char* ssid = "SIGN24G";
+const char* ssid = "wifi_ssid_here";
 const char* password = "wifi_password_here";
 
 // API endpoint (LEGACY - currently disabled in favor of SD logging)
