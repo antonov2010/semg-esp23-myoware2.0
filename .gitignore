@@ -1,0 +1,13 @@
+.windsurf/
+/esp32-env
+.env
+*.pyc
+app/api/__pycache__
+app/__pycache__
+sd_test/
+ML/
+search_lcd_address/
+test-lcd-i2c/
+arduino-uno-test-ekg/
+ekg-semg/
+esp32-test/
