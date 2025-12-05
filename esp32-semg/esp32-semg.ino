@@ -123,10 +123,10 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // WiFi Configuration (replace with your network credentials)
 const char* ssid = "SIGN24G";
-const char* password = "ePgj\"htNQ=U@hf+";
+const char* password = "wifi_password_here";
 
 // API endpoint (LEGACY - currently disabled in favor of SD logging)
-const char* serverUrl = "http://192.168.0.243:8000/emg/records";
+const char* serverUrl = "http://fastapi_server:8000/emg/records";
 
 // State Management Flags
 bool readingActive = false;          // Controls whether EMG data acquisition is active
